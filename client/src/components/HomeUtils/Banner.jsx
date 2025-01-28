@@ -25,8 +25,8 @@ const Banner = () => {
                 {
                     icons.map((Icon,index)=>{
                         return(
-                            <div key={index} className='w-20 h-20 flex  justify-center items-center text-white text-3xl border-2 rounded-full'>
-                                <Icon className='w-10 h-10'/>
+                            <div key={index} className='w-16 h-16 flex  justify-center items-center text-white text-3xl border-2 rounded-full'>
+                                <Icon className='w-8 h-8'/>
                             </div>
                         )
                     })

@@ -35,7 +35,7 @@ const CardsOne = () => {
         <div className="text-center space-y-10">
 
             <div className="relative">
-            {/* <p className=" text-black text-xl font-bold">OUR GOALS </p> */}
+            <p className=" text-transparent text-xl font-bold my-5">Our Goals</p>
             <p className="absolute -top-6 left-1/2 transform -translate-x-1/2   text-5xl font-bold  bg-gradient-to-t from-white via-green-300 to-green-600 bg-clip-text text-transparent">OUR GOALS </p>
 
             </div>

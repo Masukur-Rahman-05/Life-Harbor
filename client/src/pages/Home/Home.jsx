@@ -3,6 +3,7 @@ import Banner from '../../components/HomeUtils/Banner.jsx';
 import Mission from '@/components/HomeUtils/Mission.jsx';
 import SectionOne from '@/components/HomeUtils/SectionOne.jsx';
 import CardsOne from '@/components/HomeUtils/CardsOne.jsx';
+import BannerTwo from '@/components/HomeUtils/BannerTwo.jsx';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <Mission/>
             <SectionOne/>
             <CardsOne/>
+            <BannerTwo/>
         </div>
     );
 };

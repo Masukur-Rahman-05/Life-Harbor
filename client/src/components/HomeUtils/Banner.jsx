@@ -11,7 +11,7 @@ const Banner = () => {
 
     const icons = [FaHandshakeSimple,FaHandHoldingHeart,GiUnbalanced,RiEmotionHappyLine,GiHumanPyramid]
     return (
-        <div className='relative w-screen h-[500px] '>
+        <div className='relative w-screen h-[600px] '>
             <img src={banner} alt="banner" className='w-full h-full object-cover '/>
             <div className='absolute inset-0 bg-linear-to-t from-black  to-black/1 opacity-90 '></div>
             <Navbar/>
